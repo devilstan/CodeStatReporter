@@ -22,6 +22,13 @@ Public Variables As Collection
 
 Private Sub Class_Initialize()
         Set Variables = New Collection
+        Name = 0
+        Code = 0
+        FullPath = 0
+        SegEndLine = 0
+        SegEndLine = 0
+        Additions = 0
+        Comments = 0
 End Sub
 
 Private Sub Class_Terminate()
